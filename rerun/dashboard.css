@@ -11,6 +11,7 @@ body {
     width: 50px;
     height: auto;
     margin-right: 10px;
+}
 main {
   display: flex;
 
