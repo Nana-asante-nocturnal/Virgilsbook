@@ -1,169 +1,168 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-.db {
-  font-size: 20px;
-}
-.pic {
-    width: 50px;
-    height: auto;
-    margin-right: 10px;
-}
-main {
-  display: flex;
-
-}
-aside {
-  color: #fff;
-  width: 250px;
-  height: 100vh;
-
-  background-image: linear-gradient(30deg, #0048bd, #003e95);
-  border-top-right-radius: 80px;
-}
-
-aside #side-nav-header{
-  padding: 1rem 2rem;
-}
-
-aside button {
-  font-size: 25px;
-  color: #fff;
-  background-color: transparent;
-  display: block;
-  padding: 12px;
-  padding-left: 30px;
-  width: 250px;
-  text-decoration: none;
-  outline: none;
-  border: none;
-  cursor: pointer;
-  -webkit-tap-highlight-color: transparent;
-}
-
-aside button:hover, aside button:focus {
-  color: #003e95;
-  background: #fff;
-  outline: none;
-  position: relative;
-  background-color: #fff;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-}
-
-aside button i {
-  margin-right: 5px;
-}
-
-aside a:hover::after {
-  content: "";
-  position: absolute;
-  background-color: transparent;
-  bottom: 100%;
-  right: 0;
-  height: 35px;
-  width: 35px;
-  border-bottom-right-radius: 18px;
-  box-shadow: 0 20px 0 0 #fff;
-}
-
-aside a:hover::before {
-  content: "";
-  position: absolute;
-  background-color: transparent;
-  top: 38px;
-  right: 0;
-  height: 35px;
-  width: 35px;
-  border-top-right-radius: 18px;
-  box-shadow: 0 -20px 0 0 #fff;
-}
-
-aside p {
-  margin: 0;
-  padding: 40px 0;
-}
-
-body {
-  font-family: "Roboto";
-  width: 100%;
-  height: 100vh;
-  margin: 0;
-}
-
-h1 {
-  text-align: center;
-}
-
-form {
-  margin: 20px auto;
-  max-width: 400px;
-}
-
-table {
-  width: 100%;
-}
-
-table td {
-  padding: 10px;
-}
-
-input[type="text"],
-select {
-  width: 100%;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-select {
-  height: 38px;
-}
-
-input[type="text"]::placeholder {
-  color: #999;
-}
-
-select::placeholder {
-  color: #999;
-}
-
-input[type="submit"] {
-  width: 100%;
-  padding: 10px;
-  margin-top: 10px;
-  background-color: #4caf50;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type="submit"]:hover {
-  background-color: #45a049;
-}
-
-td:first-child {
-  font-weight: bold;
-}
-
-td:first-child,
-td:last-child {
-  text-align: right;
-}
-
-#output {
-  width: 800px;
-  margin:0 auto;
-}
-
-@media only screen and (max-width: 600px) {
-  form {
-    max-width: 100%;
-    padding: 0 10px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
   }
-}
+  
+  .db {
+    font-size: 20px;
+  }
+  .pic {
+      width: 50px;
+      height: auto;
+      margin-right: 10px;
+  }
+  main {
+    display: flex;
+  
+  }
+  aside {
+    color: #fff;
+    width: 250px;
+    height: 100vh;
+    background-image: linear-gradient(30deg, #0048bd, #003e95);
+    border-top-right-radius: 80px;
+  }
+  
+  aside #side-nav-header{
+    padding: 1rem 2rem;
+  }
+  
+  aside button {
+    font-size: 25px;
+    color: #fff;
+    background-color: transparent;
+    display: block;
+    padding: 12px;
+    padding-left: 30px;
+    width: 250px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  aside button:hover, aside button:focus {
+    color: #003e95;
+    background: #fff;
+    outline: none;
+    position: relative;
+    background-color: #fff;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  aside button i {
+    margin-right: 5px;
+  }
+  
+  aside a:hover::after {
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    bottom: 100%;
+    right: 0;
+    height: 35px;
+    width: 35px;
+    border-bottom-right-radius: 18px;
+    box-shadow: 0 20px 0 0 #fff;
+  }
+  
+  aside a:hover::before {
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    top: 38px;
+    right: 0;
+    height: 35px;
+    width: 35px;
+    border-top-right-radius: 18px;
+    box-shadow: 0 -20px 0 0 #fff;
+  }
+  
+  aside p {
+    margin: 0;
+    padding: 40px 0;
+  }
+  
+  body {
+    font-family: "Roboto";
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    margin: 20px auto;
+    max-width: 400px;
+  }
+  
+  table {
+    width: 100%;
+  }
+  
+  table td {
+    padding: 10px;
+  }
+  
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  select {
+    height: 38px;
+  }
+  
+  input[type="text"]::placeholder {
+    color: #999;
+  }
+  
+  select::placeholder {
+    color: #999;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  td:first-child {
+    font-weight: bold;
+  }
+  
+  td:first-child,
+  td:last-child {
+    text-align: right;
+  }
+  
+  #output {
+    width: 800px;
+    margin:0 auto;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    form {
+      max-width: 100%;
+      padding: 0 10px;
+    }
+  }
